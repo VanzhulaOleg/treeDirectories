@@ -16,7 +16,7 @@
                     required
                 >
             </label>
-            <input type="submit" value="show tree" class="btn-show">
+            <input type="submit" value="save" class="btn-save">
         </form>
     </div>
 </header>

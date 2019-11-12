@@ -35,8 +35,8 @@ label{
     color: white;
 }
 
-.btn-show {
-    width: 90px;
+.btn-save {
+    width: 80px;
     height: 30px;
     margin-left: 5px;
     border-radius: 15px;
@@ -44,11 +44,12 @@ label{
     background: #006600;
     border: 2px solid lightgrey;
 }
-.btn-show:hover{
+.btn-save:hover{
     background: #008800;
+    border: 3px solid white;
 }
 
-.btn-show:focus {
+.btn-save:focus {
     outline: 0;
 }
 
@@ -132,7 +133,9 @@ label{
     background: cadetblue;
     border: 2px solid lightgrey;
 }
-
+.btn-item-show:focus {
+    outline: 0;
+}
 .btn-item-delete {
     width: 90px;
     height: 30px;
@@ -146,7 +149,13 @@ label{
 .btn-item-delete:hover {
     border: 2px solid red;
 }
+.btn-item-delete:focus {
+    outline: 0;
+}
 
 .btn-item-show:hover {
     border: 2px solid dodgerblue;
+}
+.alert-danger {
+    margin: 0px;
 }

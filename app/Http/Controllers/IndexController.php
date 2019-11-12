@@ -21,7 +21,6 @@ class indexController extends Controller
         $tree = '';
         if ($isValid) {
             $tree = $this->getTree($dir_path);
-//            return view('show', compact(['tree', 'isValid']));
             $treeData = Tree::firstOrNew(
                 ['path' => $data],
                 ['path' => $data, 'json_value' => $tree]
